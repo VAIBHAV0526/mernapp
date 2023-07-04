@@ -1,6 +1,7 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
 import Login from '../Screen/Login'
+import Signup from '../Screen/Signup'
 function Navbar (){
     return(
     <div>
@@ -17,6 +18,9 @@ function Navbar (){
         </li>
         <li className="nav-item">
           <Link className="nav-link" to='/login'>LOGIN</Link>
+        </li>
+        <li className="nav-item">
+          <Link className="nav-link" to='/signup'>Create USER</Link>
         </li>
         
       </ul>
